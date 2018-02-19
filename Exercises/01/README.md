@@ -17,18 +17,18 @@
   
 
 * Напишете функция, която отпечатва информацията от даден обект горния тип.
- ```c++
- void print(const Student& s);
- ```
+   ```c++
+   void print(const Student& s);
+   ```
 
 
 * Напишете функиция, която отпечатва средния успех на всеки един студент от подаден списък със студенти.
-```c++
-void printAverageMarks(Student* students, size_t count);
-```
+  ```c++
+  void printAverageMarks(Student* students, size_t count);
+  ```
 
 
 * Напишете функция, която намира студента с най-висок успех от подаден масив от студенти.
-```c++
-Student& getBestStudent(Student* students, size_t count);
-```
+  ```c++
+  Student& getBestStudent(Student* students, size_t count);
+  ```
