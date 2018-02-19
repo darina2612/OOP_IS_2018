@@ -11,6 +11,7 @@
 
 ### Станимир Богданов
 
+stanimir.bogdanov@gmail.com
 
 ### Дарина Кръстева
 
