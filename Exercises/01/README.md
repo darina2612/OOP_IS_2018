@@ -32,3 +32,5 @@
   ```c++
   Student& getBestStudent(Student* students, size_t count);
   ```
+
+[Решение](Solutions/main.cpp)
