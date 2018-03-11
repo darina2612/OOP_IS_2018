@@ -37,3 +37,5 @@
 
 * `void getAllBooksCheaperThan(const Bookstore& store, float price, const char* outputFileName)`, която записва  всички книги от `store`
 с цена, по-ниска или равна на `price`, в текстов файл с име `outputFileName`.
+
+[Решение](Solutions/main.cpp)
