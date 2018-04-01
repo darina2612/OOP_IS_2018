@@ -1,0 +1,6 @@
+# Упражнение 07 - Използване на динамичен масив и String
+
+Използвайки класът [Vector](https://github.com/darina2612/OOP_IS_2018/blob/master/Exercises/04/README.md) и класът String от лекции,
+пренапишетeзадачата от [Упражнение 03](https://github.com/darina2612/OOP_IS_2018/blob/master/Exercises/03/README.md).
+
+Можете да замените всички употреби на `char*` със `String`, а за песните в `MusicAlbum` боже да се използва `Vector`.
