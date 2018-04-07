@@ -34,9 +34,6 @@ public:
 
     size_t size() const;
     size_t capacity() const;
-
-    //допълнителен метод
-    void removeElementAtIndex(size_t index);
 };
 
 template <typename T>
@@ -175,17 +172,3 @@ size_t Vector<T>::capacity() const
 {
     return _capacity;
 }
-
-template <typename T>
-void Vector<T>::removeElementAtIndex(size_t index)
-{
-    assert(index >= 0  && index < _size);
-
-    for(size_t i = index; i < _size - 1; ++i)
-    {
-        _elements[i] = _elements[i + 1];
-    }
-
-    --_size;
-}
-
