@@ -38,6 +38,16 @@
 Да се реализира следния клас:
 
 ```c++
+
+enum Food
+  {
+    Fruits,
+    Vegetables,
+    Meat,
+    Milk
+    //........
+  };
+  
   class Mammal
   {
   public:
@@ -55,16 +65,7 @@
   protected:
     unsigned age;
   };
- 
   
-  enum Food
-  {
-    Fruits,
-    Vegetables,
-    Meat,
-    Milk
-    //........
-  };
 ```
 
 Да се реализират класове `Hippo`,`Dog`, `Kangaroo`, `Human`, които наследяват `Mammal`.
